@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "LOCAL002",
+    "grade": "3",
+    "unit": "方程式",
+    "keywords": "1次方程式,連立方程式,2次方程式,方程式の解,文章題,整数の性質,2次方程式の利用,面積",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-23T14:01:30.472Z",
+    "images": [
+      "LOCAL002_problem_1.png",
+      "LOCAL002_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL002_explanation_1.png"
+    ],
+    "answerImage": "LOCAL002_answer.png"
+  },
+  {
+    "id": "LOCAL003",
+    "grade": "3",
+    "unit": "二次関数",
+    "keywords": "",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-23T14:02:26.239Z",
+    "images": [
+      "LOCAL003_problem_1.png",
+      "LOCAL003_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL003_explanation_1.png"
+    ],
+    "answerImage": "LOCAL003_answer.png"
+  },
+  {
+    "id": "LOCAL004",
+    "grade": "3",
+    "unit": "図形の相似",
+    "keywords": "平行線,相似,線分の比,面積比,三角形,平行線と比,幾何",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "3",
+    "createdAt": "2026-01-23T14:05:04.339Z",
+    "images": [
+      "LOCAL004_problem_1.png",
+      "LOCAL004_problem_2.png",
+      "LOCAL004_problem_3.png"
+    ],
+    "explanationImages": [
+      "LOCAL004_explanation_1.png"
+    ],
+    "answerImage": "LOCAL004_answer.png"
+  },
+  {
+    "id": "LOCAL005",
+    "grade": "3",
+    "unit": "円周角の定理",
+    "keywords": "円周角,中心角,接線,直径,円周角の定理の逆,三角形の内角の和,対頂角,円の性質",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-23T14:06:18.195Z",
+    "images": [
+      "LOCAL005_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL005_explanation_1.png",
+      "LOCAL005_explanation_2.png"
+    ],
+    "answerImage": "LOCAL005_answer.png"
+  },
+  {
+    "id": "LOCAL006",
+    "grade": "3",
+    "unit": "円周角の定理と相似",
+    "keywords": "円周角の定理,相似,相似の証明,平行線,二等辺三角形,相似条件,弧,円,図形",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-23T14:07:46.698Z",
+    "images": [
+      "LOCAL006_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL006_explanation_1.png"
+    ],
+    "answerImage": "LOCAL006_answer.png"
+  },
+  {
+    "id": "LOCAL007",
+    "grade": "3",
+    "unit": "三平方の定理",
+    "keywords": "三平方の定理,直角三角形,特別な直角三角形,正四角錐,体積,辺の長さ,図形",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-23T14:08:53.325Z",
+    "images": [
+      "LOCAL007_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL007_explanation_1.png",
+      "LOCAL007_explanation_2.png"
+    ],
+    "answerImage": "LOCAL007_answer.png"
+  },
+  {
+    "id": "LOCAL008",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "相似,三角形,証明,相似条件,2組の角,直角,垂線,三平方の定理,相似比",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-23T14:11:02.887Z",
+    "images": [
+      "LOCAL008_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL008_explanation_1.png"
+    ],
+    "answerImage": "LOCAL008_answer.png"
+  },
+  {
+    "id": "LOCAL009",
+    "grade": "3",
+    "unit": "二次方程式の利用",
+    "keywords": "動点,2次関数,三角形の面積,グラフの選択,変域,1次関数,変化の割合",
+    "year": "2020",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:20:40.702Z",
+    "images": [
+      "LOCAL009_problem_1.png",
+      "LOCAL009_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL010",
+    "grade": "3",
+    "unit": "2次方程式",
+    "keywords": "1次方程式,連立方程式,2次方程式,文章題,方程式の利用,平行四辺形,面積,因数分解,文字と式",
+    "year": "2024",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:21:28.347Z",
+    "images": [
+      "LOCAL010_problem_1.png",
+      "LOCAL010_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL011",
+    "grade": "3",
+    "unit": "2次方程式",
+    "keywords": "連立方程式,2次方程式,因数分解,解の公式,平方根,方程式の利用,解の積,整数",
+    "year": "2024",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:22:24.904Z",
+    "images": [
+      "LOCAL011_problem_1.png",
+      "LOCAL011_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL012",
+    "grade": "3",
+    "unit": "方程式",
+    "keywords": "1次方程式,連立方程式,2次方程式,方程式の計算,方程式の解,速さ,道のり,時間,文章題",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:23:04.679Z",
+    "images": [
+      "LOCAL012_problem_1.png",
+      "LOCAL012_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL013",
+    "grade": "2",
+    "unit": "確率",
+    "keywords": "確率,さいころ,和,同様に確からしい,場合の数,樹形図,表",
+    "year": "2020",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:23:53.725Z",
+    "images": [
+      "LOCAL013_problem_1.png",
+      "LOCAL013_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL014",
+    "grade": "2",
+    "unit": "データの活用",
+    "keywords": "文字の式,正四角錐,円柱,体積,度数分布表,累積度数,中央値,相対度数,範囲,最頻値",
+    "year": "2024",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:24:49.574Z",
+    "images": [
+      "LOCAL014_problem_1.png",
+      "LOCAL014_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL015",
+    "grade": "3",
+    "unit": "データの活用と確率",
+    "keywords": "中央値,箱ひげ図,確率,素数,四分位数,範囲,同様に確からしい,データの分布",
+    "year": "2023",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:25:34.865Z",
+    "images": [
+      "LOCAL015_problem_1.png",
+      "LOCAL015_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL016",
+    "grade": "2",
+    "unit": "確率とデータの活用",
+    "keywords": "確率,同様に確からしい,度数分布表,累積度数,相対度数,累積相対度数,箱ひげ図,四分位数,四分位範囲",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:26:29.371Z",
+    "images": [
+      "LOCAL016_problem_1.png",
+      "LOCAL016_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL017",
+    "grade": "3",
+    "unit": "三平方の定理",
+    "keywords": "正四角錐,ねじれの位置,三平方の定理,空間図形,体積,垂線の長さ,図形",
+    "year": "2020",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:27:43.247Z",
+    "images": [
+      "LOCAL017_problem_1.png",
+      "LOCAL017_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL018",
+    "grade": "3",
+    "unit": "数と式、関数、図形の性質（数学総合）",
+    "keywords": "1次方程式,2次方程式,関数y=ax^2,変化の割合,円周角の定理,中心角,中点連結定理,相似,図形の性質",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:28:24.073Z",
+    "images": [
+      "LOCAL018_problem_1.png",
+      "LOCAL018_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL019",
+    "grade": "3",
+    "unit": "2次方程式、関数y=ax^2、円、相似な図形",
+    "keywords": "1次方程式,2次方程式,関数y=ax^2,変域,比例定数,円周角の定理,相似,面積比,平行四辺形,直径",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:28:57.660Z",
+    "images": [
+      "LOCAL019_problem_1.png",
+      "LOCAL019_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL020",
+    "grade": "3",
+    "unit": "円の性質",
+    "keywords": "円周角の定理,中心角,円周角,接線,直径,角度,円,三角形の内角",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:29:30.504Z",
+    "images": [
+      "LOCAL020_problem_1.png",
+      "LOCAL020_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL021",
+    "grade": "3",
+    "unit": "三平方の定理",
+    "keywords": "三平方の定理,直角三角形,球,正四角錐,最短距離,面積,空間図形,平面図形,切り口,特別な角の比",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:30:08.209Z",
+    "images": [
+      "LOCAL021_problem_1.png",
+      "LOCAL021_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL022",
+    "grade": "3",
+    "unit": "円周角の定理",
+    "keywords": "円周角の定理,図形の相似,相似条件,相似の証明,弧の等しさ,面積比,三角形,幾何",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:30:44.675Z",
+    "images": [
+      "LOCAL022_problem_1.png",
+      "LOCAL022_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL023",
+    "grade": "3",
+    "unit": "円周角の定理",
+    "keywords": "円周角の定理,相似,証明,弧,三角形,直径,相似条件,面積",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:31:39.923Z",
+    "images": [
+      "LOCAL023_problem_1.png",
+      "LOCAL023_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL024",
+    "grade": "3",
+    "unit": "二次方程式・関数y=ax^2・円の性質（数学）",
+    "keywords": "1次方程式,2次方程式,関数y=ax^2,変化の割合,円,弧,中心角,中点連結定理,図形",
+    "year": "2022",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:32:32.781Z",
+    "images": [
+      "LOCAL024_problem_1.png",
+      "LOCAL024_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL025",
+    "grade": "3",
+    "unit": "円周角の定理",
+    "keywords": "相似,証明,円周角の定理,直径,半径,三平方の定理,相似条件,垂線",
+    "year": "2022",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:33:22.613Z",
+    "images": [
+      "LOCAL025_problem_1.png",
+      "LOCAL025_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL026",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "座標平面,対称な点,三角形の面積,線分の長さの和,最小,一次関数の利用,最短距離,直線の式",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:34:03.786Z",
+    "images": [
+      "LOCAL026_problem_1.png",
+      "LOCAL026_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL027",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "反比例,変域,1次関数,直線の式,切片,yの増加量,比例定数,座標",
+    "year": "2024",
+    "month": "4",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:34:35.932Z",
+    "images": [
+      "LOCAL027_problem_1.png",
+      "LOCAL027_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL028",
+    "grade": "1",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,グラフ,座標,関数,双曲線,交点,台形の面積,比例定数",
+    "year": "2024",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:35:15.475Z",
+    "images": [
+      "LOCAL028_problem_1.png",
+      "LOCAL028_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL029",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,座標平面,三角形の面積,長方形の周の長さ,交点,グラフの交点,関数の利用",
+    "year": "2024",
+    "month": "5",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:36:21.085Z",
+    "images": [
+      "LOCAL029_problem_1.png",
+      "LOCAL029_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL030",
+    "grade": "1",
+    "unit": "比例と反比例",
+    "keywords": "反比例,比例,関数,座標,グラフ,双曲線,面積,直線の式",
+    "year": "2024",
+    "month": "6",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:37:08.661Z",
+    "images": [
+      "LOCAL030_problem_1.png",
+      "LOCAL030_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL031",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "座標,直線,一次関数,面積,二等分,座標平面,三角形,原点,直線の式,交点",
+    "year": "2024",
+    "month": "6",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:37:46.304Z",
+    "images": [
+      "LOCAL031_problem_1.png",
+      "LOCAL031_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL032",
+    "grade": "1",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,グラフ,座標,面積,比例定数,関数,速さ,道のり,交点",
+    "year": "2024",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:38:18.747Z",
+    "images": [
+      "LOCAL032_problem_1.png",
+      "LOCAL032_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL033",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "関数,比例,比例定数,一次関数,変域,グラフ,座標",
+    "year": "2024",
+    "month": "7",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:38:57.867Z",
+    "images": [
+      "LOCAL033_problem_1.png",
+      "LOCAL033_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL034",
+    "grade": "1",
+    "unit": "比例と反比例",
+    "keywords": "反比例,比例定数,関数,グラフ,座標,平行四辺形,面積",
+    "year": "2024",
+    "month": "7",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:39:47.668Z",
+    "images": [
+      "LOCAL034_problem_1.png",
+      "LOCAL034_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL035",
+    "grade": "2",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,関数,グラフ,座標,比例定数,三角形の面積,座標平面",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:40:26.484Z",
+    "images": [
+      "LOCAL035_problem_1.png",
+      "LOCAL035_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL036",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "1次関数,変化の割合,直線の式,双曲線,反比例,座標,傾き,切片,平行",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:41:03.971Z",
+    "images": [
+      "LOCAL036_problem_1.png",
+      "LOCAL036_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL037",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "一次関数,グラフ,座標,交点,直線の式,三角形の面積,座標平面,変化の割合,切片",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:41:52.336Z",
+    "images": [
+      "LOCAL037_problem_1.png",
+      "LOCAL037_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL038",
+    "grade": "2",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,座標,グラフ,比例定数,関数,三角形の面積,直線,曲線,x座標",
+    "year": "2024",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:43:25.404Z",
+    "images": [
+      "LOCAL038_problem_1.png",
+      "LOCAL038_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL039",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "1次関数,傾き,切片,変化の割合,グラフ,変域,増加量,直線の式,平行,座標平面",
+    "year": "2024",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:44:12.873Z",
+    "images": [
+      "LOCAL039_problem_1.png",
+      "LOCAL039_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL040",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "直線の式,一次関数,座標,格子点,平行,比例,関数のグラフ,整数,三角形,代入",
+    "year": "2024",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:44:54.653Z",
+    "images": [
+      "LOCAL040_problem_1.png",
+      "LOCAL040_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL041",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "座標平面,対称な点,三角形の面積,線分の長さの和,最小値,最短距離,直線の式,x軸,y軸,原点",
+    "year": "2024",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:45:49.638Z",
+    "images": [
+      "LOCAL041_problem_1.png",
+      "LOCAL041_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL042",
+    "grade": "2",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,比例定数,双曲線,座標,交点,三角形の面積,関数,直線の式",
+    "year": "2024",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:46:38.433Z",
+    "images": [
+      "LOCAL042_problem_1.png",
+      "LOCAL042_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL043",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,変域,グラフ,平行,切片,座標,関数,直線",
+    "year": "2024",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:47:07.546Z",
+    "images": [
+      "LOCAL043_problem_1.png",
+      "LOCAL043_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL044",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,座標,平行,格子点,比例,関数,グラフ,代入,整数",
+    "year": "2023",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:47:59.947Z",
+    "images": [
+      "LOCAL044_problem_1.png",
+      "LOCAL044_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL045",
+    "grade": "3",
+    "unit": "比例と反比例",
+    "keywords": "比例,座標,線分の長さ,三角形の面積,直線の式,変域,関数の利用",
+    "year": "2023",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:48:44.491Z",
+    "images": [
+      "LOCAL045_problem_1.png",
+      "LOCAL045_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL046",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,グラフ,傾き,切片,座標,線分,直線の式,値の範囲,変化の割合,交点",
+    "year": "2023",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:49:26.858Z",
+    "images": [
+      "LOCAL046_problem_1.png",
+      "LOCAL046_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL047",
+    "grade": "2",
+    "unit": "比例と反比例",
+    "keywords": "比例,反比例,比例定数,座標,グラフ,比例の式,反比例の式,三角形の面積",
+    "year": "2023",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:50:00.612Z",
+    "images": [
+      "LOCAL047_problem_1.png",
+      "LOCAL047_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL048",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "1次関数,傾き,座標,交点,直線の式,三角形の面積,グラフ",
+    "year": "2023",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:50:29.746Z",
+    "images": [
+      "LOCAL048_problem_1.png",
+      "LOCAL048_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL049",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "1次関数,変化の割合,変域,傾き,切片,2元1次方程式,グラフ,交点,座標,直線の式",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:51:02.434Z",
+    "images": [
+      "LOCAL049_problem_1.png",
+      "LOCAL049_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL050",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,傾き,座標,三角形の面積,原点,グラフ,変化の割合",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:52:39.990Z",
+    "images": [
+      "LOCAL050_problem_1.png",
+      "LOCAL050_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL051",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "1次関数,直線の式,切片,交点の座標,変域,座標,定数",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:53:22.382Z",
+    "images": [
+      "LOCAL051_problem_1.png",
+      "LOCAL051_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL052",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,座標,面積,三角形,長方形,中点,傾き,切片,グラフ",
+    "year": "2023",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:54:13.224Z",
+    "images": [
+      "LOCAL052_problem_1.png",
+      "LOCAL052_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL053",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,交点の座標,三角形の面積,傾き,切片,座標平面,代入",
+    "year": "2024",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:54:46.214Z",
+    "images": [
+      "LOCAL053_problem_1.png",
+      "LOCAL053_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL054",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "直線の式,傾き,座標,三角形の面積,y軸,x座標,交点",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:55:22.285Z",
+    "images": [
+      "LOCAL054_problem_1.png",
+      "LOCAL054_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL055",
+    "grade": "2",
+    "unit": "物体の運動",
+    "keywords": "速さ,道のり,時間,等速直線運動,グラフ,距離,1次関数,比例,変域,物理",
+    "year": "2023",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:56:17.193Z",
+    "images": [
+      "LOCAL055_problem_1.png",
+      "LOCAL055_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL056",
+    "grade": "3",
+    "unit": "一次関数の利用",
+    "keywords": "グラフの読み取り,給水,排水,水そう,深さと時間,変化の割合,一次関数,直方体,容積,関数の利用",
+    "year": "2024",
+    "month": "7",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:57:08.805Z",
+    "images": [
+      "LOCAL056_problem_1.png",
+      "LOCAL056_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL057",
+    "grade": "3",
+    "unit": "一次関数",
+    "keywords": "動点,一次関数,三角形の面積,グラフ,長方形,関数の利用,速さ,変域",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:57:42.055Z",
+    "images": [
+      "LOCAL057_problem_1.png",
+      "LOCAL057_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL058",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "動く点,一次関数,三角形の面積,グラフの読み取り,変域,速さ,直線の式,変化の割合",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T07:58:20.804Z",
+    "images": [
+      "LOCAL058_problem_1.png",
+      "LOCAL058_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL059",
+    "grade": "2",
+    "unit": "一次関数の利用",
+    "keywords": "一次関数,グラフの読み取り,水そう,給水,排水,変化の割合,変域,直線の式,数学,応用問題",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:59:07.196Z",
+    "images": [
+      "LOCAL059_problem_1.png",
+      "LOCAL059_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL060",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "相似,相似比,体積比,円錐,立体,比,相似な立体の体積",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T07:59:55.942Z",
+    "images": [
+      "LOCAL060_problem_1.png",
+      "LOCAL060_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL061",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "相似,相似比,体積比,四角錐,空間図形,相似な図形,底面積,体積",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:00:36.263Z",
+    "images": [
+      "LOCAL061_problem_1.png",
+      "LOCAL061_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL062",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "2次関数,y=ax^2,変域,座標平面,平行四辺形,面積の2等分,放物線,グラフ",
+    "year": "2020",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:06.208Z",
+    "images": [
+      "LOCAL062_problem_1.png",
+      "LOCAL062_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL063",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "動点,関数 y=ax^2,グラフ,三角形の面積,台形,変域,2次方程式,点の移動",
+    "year": "2024",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:30.183Z",
+    "images": [
+      "LOCAL063_problem_1.png",
+      "LOCAL063_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL064",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "放物線,関数 y=ax^2,座標,直線の式,比例定数,平行四辺形,面積,二等分,傾き,グラフ",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:36.904Z",
+    "images": [
+      "LOCAL064_problem_1.png",
+      "LOCAL064_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL065",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数 y=ax^2,放物線,変域,座標,直線の式,三角形の面積,等積変形,グラフ",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:44.900Z",
+    "images": [
+      "LOCAL065_problem_1.png",
+      "LOCAL065_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL066",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数 y=ax^2,2次関数,放物線,座標,直線の式,面積,平行,三角形の面積,四角形の面積",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:51.605Z",
+    "images": [
+      "LOCAL066_problem_1.png",
+      "LOCAL066_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL067",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "y=ax^2,放物線,変域,座標,面積,比例定数,グラフ,2乗に比例する関数",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:32:58.235Z",
+    "images": [
+      "LOCAL067_problem_1.png",
+      "LOCAL067_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL068",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "図形の移動,面積,2次関数,グラフ,動点,台形,長方形,関数の利用,変域",
+    "year": "2023",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:05.497Z",
+    "images": [
+      "LOCAL068_problem_1.png",
+      "LOCAL068_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL069",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "y=ax^2,2乗に比例する関数,1次関数,放物線,変域,座標,交点,三角形の面積,グラフ",
+    "year": "2023",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:15.054Z",
+    "images": [
+      "LOCAL069_problem_1.png",
+      "LOCAL069_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL070",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数,y=ax^2,2乗に比例する関数,放物線,変域,直線の式,座標,三角形の面積",
+    "year": "2022",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:21.658Z",
+    "images": [
+      "LOCAL070_problem_1.png",
+      "LOCAL070_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL071",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "放物線,座標,直線の式,面積,交点,2乗に比例する関数,関数のグラフ,座標平面,四角形",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:28.711Z",
+    "images": [
+      "LOCAL071_problem_1.png",
+      "LOCAL071_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL072",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数,グラフ,放物線,座標,変域,直線の式,三角形の面積,平行",
+    "year": "2022",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:40.978Z",
+    "images": [
+      "LOCAL072_problem_1.png",
+      "LOCAL072_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL073",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数 y=ax^2,2乗に比例する関数,放物線,一次関数,交点,変域,三角形の面積,正方形,座標,グラフ",
+    "year": "2021",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:49.011Z",
+    "images": [
+      "LOCAL073_problem_1.png",
+      "LOCAL073_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL074",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "関数 y=ax^2,放物線,座標,変域,面積,比例定数,図形と関数,グラフ",
+    "year": "2021",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:33:55.898Z",
+    "images": [
+      "LOCAL074_problem_1.png",
+      "LOCAL074_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL075",
+    "grade": "3",
+    "unit": "二次関数のグラフと図形と利用",
+    "keywords": "2次関数,放物線,座標,直線の式,三角形の面積,傾き,切片,2乗に比例する関数,等積変形",
+    "year": "2021",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:34:02.418Z",
+    "images": [
+      "LOCAL075_problem_1.png",
+      "LOCAL075_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL076",
+    "grade": "3",
+    "unit": "文字の式の利用",
+    "keywords": "文字式,規則性,自然数,倍数,さいころ,式の活用,整数の性質,行,列",
+    "year": "2024",
+    "month": "6",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:10:26.075Z",
+    "images": [
+      "LOCAL076_problem_1.png",
+      "LOCAL076_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL077",
+    "grade": "2",
+    "unit": "式の計算",
+    "keywords": "式の計算,文字式の利用,自然数,3の倍数,説明,和,文字の式",
+    "year": "2024",
+    "month": "7",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:11:04.456Z",
+    "images": [
+      "LOCAL077_problem_1.png",
+      "LOCAL077_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL078",
+    "grade": "2",
+    "unit": "連立方程式",
+    "keywords": "2元1次方程式,負の整数,自然数,倍数,解,式の変形,整数の解,係数",
+    "year": "2024",
+    "month": "7",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:11:49.529Z",
+    "images": [
+      "LOCAL078_problem_1.png",
+      "LOCAL078_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL079",
+    "grade": "2",
+    "unit": "方程式の利用",
+    "keywords": "方程式,一次方程式,過不足算,速さ,時間,道のり,文章題,文字式",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:13:00.703Z",
+    "images": [
+      "LOCAL079_problem_1.png",
+      "LOCAL079_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL080",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:13:48.787Z",
+    "images": [
+      "LOCAL080_problem_1.png",
+      "LOCAL080_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL081",
+    "grade": "3",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "6",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:14:19.473Z",
+    "images": [
+      "LOCAL081_problem_1.png",
+      "LOCAL081_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL082",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "8",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:14:45.824Z",
+    "images": [
+      "LOCAL082_problem_1.png",
+      "LOCAL082_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL083",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:15:08.509Z",
+    "images": [
+      "LOCAL083_problem_1.png",
+      "LOCAL083_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL084",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "10",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:15:36.205Z",
+    "images": [
+      "LOCAL084_problem_1.png",
+      "LOCAL084_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL085",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:15:59.617Z",
+    "images": [
+      "LOCAL085_problem_1.png",
+      "LOCAL085_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL086",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T08:16:34.087Z",
+    "images": [
+      "LOCAL086_problem_1.png",
+      "LOCAL086_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL087",
+    "grade": "3",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:17:00.544Z",
+    "images": [
+      "LOCAL087_problem_1.png",
+      "LOCAL087_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL088",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:17:24.528Z",
+    "images": [
+      "LOCAL088_problem_1.png",
+      "LOCAL088_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL089",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:17:46.395Z",
+    "images": [
+      "LOCAL089_problem_1.png",
+      "LOCAL089_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL090",
+    "grade": "3",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:18:08.608Z",
+    "images": [
+      "LOCAL090_problem_1.png",
+      "LOCAL090_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL091",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:18:30.240Z",
+    "images": [
+      "LOCAL091_problem_1.png",
+      "LOCAL091_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL092",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "2",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:18:50.822Z",
+    "images": [
+      "LOCAL092_problem_1.png",
+      "LOCAL092_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL093",
+    "grade": "2",
+    "unit": "連立方程式の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:19:14.928Z",
+    "images": [
+      "LOCAL093_problem_1.png",
+      "LOCAL093_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL094",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2020",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:19:52.596Z",
+    "images": [
+      "LOCAL094_problem_1.png",
+      "LOCAL094_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL095",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:20:18.149Z",
+    "images": [
+      "LOCAL095_problem_1.png",
+      "LOCAL095_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL096",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:20:39.218Z",
+    "images": [
+      "LOCAL096_problem_1.png",
+      "LOCAL096_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL097",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2023",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:21:02.995Z",
+    "images": [
+      "LOCAL097_problem_1.png",
+      "LOCAL097_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL098",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2022",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:21:23.662Z",
+    "images": [
+      "LOCAL098_problem_1.png",
+      "LOCAL098_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL099",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2022",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:21:45.301Z",
+    "images": [
+      "LOCAL099_problem_1.png",
+      "LOCAL099_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL100",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2022",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:22:09.685Z",
+    "images": [
+      "LOCAL100_problem_1.png",
+      "LOCAL100_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL101",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2021",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:22:33.976Z",
+    "images": [
+      "LOCAL101_problem_1.png",
+      "LOCAL101_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL102",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2021",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:22:56.326Z",
+    "images": [
+      "LOCAL102_problem_1.png",
+      "LOCAL102_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL103",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2021",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:23:24.040Z",
+    "images": [
+      "LOCAL103_problem_1.png",
+      "LOCAL103_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL104",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2020",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:23:47.298Z",
+    "images": [
+      "LOCAL104_problem_1.png",
+      "LOCAL104_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL105",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "",
+    "year": "2020",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:24:08.727Z",
+    "images": [
+      "LOCAL105_problem_1.png",
+      "LOCAL105_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL106",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2020",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:24:44.911Z",
+    "images": [
+      "LOCAL106_problem_1.png",
+      "LOCAL106_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL107",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:25:40.583Z",
+    "images": [
+      "LOCAL107_problem_1.png",
+      "LOCAL107_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL108",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:26:16.890Z",
+    "images": [
+      "LOCAL108_problem_1.png",
+      "LOCAL108_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL109",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2024",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:26:51.897Z",
+    "images": [
+      "LOCAL109_problem_1.png",
+      "LOCAL109_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL110",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "1",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:27:19.871Z",
+    "images": [
+      "LOCAL110_problem_1.png",
+      "LOCAL110_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL111",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:27:49.063Z",
+    "images": [
+      "LOCAL111_problem_1.png",
+      "LOCAL111_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL112",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:28:18.701Z",
+    "images": [
+      "LOCAL112_problem_1.png",
+      "LOCAL112_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL113",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:28:43.725Z",
+    "images": [
+      "LOCAL113_problem_1.png",
+      "LOCAL113_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL114",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2023",
+    "month": "9",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:29:06.605Z",
+    "images": [
+      "LOCAL114_problem_1.png",
+      "LOCAL114_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL115",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2021",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:29:30.316Z",
+    "images": [
+      "LOCAL115_problem_1.png",
+      "LOCAL115_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL116",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2021",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:29:54.829Z",
+    "images": [
+      "LOCAL116_problem_1.png",
+      "LOCAL116_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL117",
+    "grade": "3",
+    "unit": "相似の証明と相似の利用",
+    "keywords": "",
+    "year": "2020",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T08:30:25.123Z",
+    "images": [
+      "LOCAL117_problem_1.png",
+      "LOCAL117_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL118",
+    "grade": "3",
+    "unit": "データの活用と確率",
+    "keywords": "箱ひげ図,四分位範囲,中央値,最大値,最小値,範囲,確率,同様に確からしい",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:10:39.512Z",
+    "images": [
+      "LOCAL118_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL118_explanation_1.png"
+    ],
+    "answerImage": "LOCAL118_answer.png"
+  },
+  {
+    "id": "LOCAL119",
+    "grade": "3",
+    "unit": "二次方程式の利用",
+    "keywords": "二次方程式,長方形,面積,方程式の作成,解の吟味,正の数,図形問題",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:12:31.778Z",
+    "images": [
+      "LOCAL119_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL119_explanation_1.png"
+    ],
+    "answerImage": "LOCAL119_answer.png"
+  },
+  {
+    "id": "LOCAL120",
+    "grade": "3",
+    "unit": "物体の運動とエネルギー",
+    "keywords": "速さ,時間,グラフ,等速直線運動,台形,面積,関数の利用,2次関数,1次関数,移動距離",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:13:43.698Z",
+    "images": [
+      "LOCAL120_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL120_explanation_1.png"
+    ],
+    "answerImage": "LOCAL120_answer.png"
+  },
+  {
+    "id": "LOCAL121",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "相似,三角形,平行線,線分比,相似比,幾何,図形の性質",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:15:49.601Z",
+    "images": [
+      "LOCAL121_problem_1.png",
+      "LOCAL121_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL121_explanation_1.png"
+    ],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL122",
+    "grade": "3",
+    "unit": "相似な図形",
+    "keywords": "相似,相似の証明,正方形,相似条件,三平方の定理,平面図形,三角形,図形の性質",
+    "year": "2025",
+    "month": "11",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:17:09.161Z",
+    "images": [
+      "LOCAL122_problem_1.png",
+      "LOCAL122_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL122_explanation_1.png"
+    ],
+    "answerImage": null
+  },
+  {
+    "id": "LOCAL123",
+    "grade": "2",
+    "unit": "連立方程式",
+    "keywords": "連立方程式,加減法,代入法,方程式の解,文章題,割合,2元1次方程式",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T13:28:14.813Z",
+    "images": [
+      "LOCAL123_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL123_explanation_1.png"
+    ],
+    "answerImage": "LOCAL123_answer.png"
+  },
+  {
+    "id": "LOCAL124",
+    "grade": "2",
+    "unit": "1次関数",
+    "keywords": "1次関数,変化の割合,傾き,切片,平行,変域,2元1次方程式,グラフ,直線",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:28:01.828Z",
+    "images": [
+      "LOCAL124_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL124_explanation_1.png"
+    ],
+    "answerImage": "LOCAL124_answer.png"
+  },
+  {
+    "id": "LOCAL125",
+    "grade": "2",
+    "unit": "一次関数",
+    "keywords": "一次関数,直線の式,座標,傾き,切片,交点,線分の長さ,y軸に平行,座標平面",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T13:25:42.144Z",
+    "images": [
+      "LOCAL125_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL125_explanation_1.png"
+    ],
+    "answerImage": "LOCAL125_answer.png"
+  },
+  {
+    "id": "LOCAL126",
+    "grade": "1",
+    "unit": "平面図形・空間図形",
+    "keywords": "作図,角の二等分線,垂直二等分線,内接円,投影図,立面図,平面図,ねじれの位置,立方体,図形",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:27:42.949Z",
+    "images": [
+      "LOCAL126_problem_1.png",
+      "LOCAL126_problem_2.png"
+    ],
+    "explanationImages": [
+      "LOCAL126_explanation_1.png",
+      "LOCAL126_explanation_2.png"
+    ],
+    "answerImage": "LOCAL126_answer.png"
+  },
+  {
+    "id": "LOCAL127",
+    "grade": "2",
+    "unit": "平行と合同",
+    "keywords": "平行線,同位角,錯角,対頂角,三角形の内角と外角,多角形の内角の和,外角の和,角の二等分線,正多角形",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "createdAt": "2026-01-27T13:30:33.301Z",
+    "images": [
+      "LOCAL127_problem_1.png"
+    ],
+    "explanationImages": [
+      "LOCAL127_explanation_1.png"
+    ],
+    "answerImage": "LOCAL127_answer.png"
+  },
+  {
+    "id": "LOCAL128",
+    "grade": "2",
+    "unit": "図形の性質",
+    "keywords": "二等辺三角形,正三角形,ひし形,平行四辺形,平行四辺形になるための条件,合同,角の大きさ,台形,対角線",
+    "year": "2025",
+    "month": "12",
+    "testType": "学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "createdAt": "2026-01-27T13:31:37.893Z",
+    "images": [
+      "LOCAL128_problem_1.png",
+      "LOCAL128_problem_2.png"
+    ],
+    "explanationImages": [],
+    "answerImage": "LOCAL128_answer.png"
+  }
+]
