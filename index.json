@@ -2311,5 +2311,219 @@
     ],
     "explanationImages": [],
     "answerImage": "./problems/LOCAL128_answer.png"
+  },
+  {
+    "id": "LOCAL129",
+    "grade": "2",
+    "unit": "小問集合",
+    "keywords": "正負の計算, 文字式の利用, 一次方程式, 単項式の計算, 等式の変形, 比例, 変域, 正多角形の内角, 平行線と角, 四角錐の体積, 垂直二等分線の作図, 中央値",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "2",
+    "forcePageCount": true,
+    "forcedPages": 3,
+    "createdAt": "2026-02-15T18:41:17.694Z",
+    "images": [
+      "./problems/LOCAL129_problem_1.png",
+      "./problems/LOCAL129_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL129_explanation_1.png",
+      "./problems/LOCAL129_explanation_2.png"
+    ],
+    "answerImage": "./problems/LOCAL129_answer.png"
+  },
+  {
+    "id": "LOCAL130",
+    "grade": "2",
+    "unit": "連立方程式（文章題）",
+    "keywords": "道のり・速さ・時間, 文字式での表現, 連立方程式の利用, 連立方程式の解法",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:45:00.104Z",
+    "images": [
+      "./problems/LOCAL130_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL130_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL130_answer.png"
+  },
+  {
+    "id": "LOCAL131",
+    "grade": "2",
+    "unit": "比例・反比例と一次関数",
+    "keywords": "反比例のグラフ, 一次関数のグラフ, 直線の式, 交点の座標, 座標平面上の三角形の面積",
+    "year": "",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:45:59.040Z",
+    "images": [
+      "./problems/LOCAL131_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL131_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL131_answer.png"
+  },
+  {
+    "id": "LOCAL132",
+    "grade": "2",
+    "unit": "規則性",
+    "keywords": "数列の規則性, ｎ番目の数, 図形の規則性, 式の一般化",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:46:56.364Z",
+    "images": [
+      "./problems/LOCAL132_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL132_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL132_answer.png"
+  },
+  {
+    "id": "LOCAL133",
+    "grade": "2",
+    "unit": "平面図形（合同と回転）",
+    "keywords": "三角形の合同証明, 正方形の性質, 回転移動, 二等辺三角形の角, おうぎ形の面積",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:48:03.614Z",
+    "images": [
+      "./problems/LOCAL133_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL133_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL133_answer.png"
+  },
+  {
+    "id": "LOCAL134",
+    "grade": "1",
+    "unit": "小問集合",
+    "keywords": "正負の計算, 文字式の計算, 一次方程式, 比例式, 素因数分解, 代入, 割引の計算, 不等式, 比例のグラフ, 円周と半径, 角の二等分線の作図",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 3,
+    "createdAt": "2026-02-15T18:53:24.421Z",
+    "images": [
+      "./problems/LOCAL134_problem_1.png",
+      "./problems/LOCAL134_problem_2.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL134_explanation_1.png",
+      "./problems/LOCAL134_explanation_2.png"
+    ],
+    "answerImage": "./problems/LOCAL134_answer.png"
+  },
+  {
+    "id": "LOCAL135",
+    "grade": "1",
+    "unit": "平面図形（移動・作図）",
+    "keywords": "正六角形, 平行移動, 回転移動, 垂直二等分線, 外心",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:54:19.701Z",
+    "images": [
+      "./problems/LOCAL135_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL135_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL135_answer.png"
+  },
+  {
+    "id": "LOCAL136",
+    "grade": "1",
+    "unit": "一次方程式の利用（過不足算）",
+    "keywords": "一次方程式の文章題, 過不足の問題, 文字式の表現",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:55:08.841Z",
+    "images": [
+      "./problems/LOCAL136_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL136_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL136_answer.png"
+  },
+  {
+    "id": "LOCAL137",
+    "grade": "1",
+    "unit": "関数（動点と面積）",
+    "keywords": "動点問題, 三角形の面積, 比例, 変域",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": true,
+    "forcedPages": 2,
+    "createdAt": "2026-02-15T18:55:54.229Z",
+    "images": [
+      "./problems/LOCAL137_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL137_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL137_answer.png"
+  },
+  {
+    "id": "LOCAL138",
+    "grade": "1",
+    "unit": "文字式の利用（規則性）",
+    "keywords": "規則性, 植木算, 文字式の利用, 一次不等式の利用, 単位の変換",
+    "year": "2025",
+    "month": "",
+    "testType": "基礎学力テスト",
+    "comment": "",
+    "pageCount": "1",
+    "forcePageCount": false,
+    "forcedPages": null,
+    "createdAt": "2026-02-15T18:56:36.628Z",
+    "images": [
+      "./problems/LOCAL138_problem_1.png"
+    ],
+    "explanationImages": [
+      "./problems/LOCAL138_explanation_1.png"
+    ],
+    "answerImage": "./problems/LOCAL138_answer.png"
   }
 ]

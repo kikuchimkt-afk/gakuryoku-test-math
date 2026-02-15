@@ -224,7 +224,7 @@
         <main class="w-full md:w-1/2 xl:w-2/5 glass-panel-light p-5 overflow-y-auto custom-scrollbar">
             <div class="flex justify-between items-center mb-6">
                 <h1 class="text-3xl font-bold text-gray-900">数学問題 検索データベース</h1>
-                <a href="問題登録.html"
+                <a href="問題登録.html" id="registrationButton"
                     class="bg-green-600 text-white py-2 px-4 rounded-lg font-semibold shadow-md hover:bg-green-700 transition-colors text-sm">
                     ＋ 問題登録
                 </a>
@@ -266,7 +266,9 @@
         // === データ ===
         // ご提供いただいた5件のサンプルデータ
         // (キー名をJSで扱いやすい英語に変更しています)
-        const MOCK_SCIENCE_DATA = []; // ローカル（IndexedDB/FileSystem）から読み込んだ問題
+        const MOCK_MATH_DATA = []; // 静的なモックデータ
+        let onlineProblems = [];   // index.json からロードされるデータ
+        let localProblems = [];    // ローカル（IndexedDB/FileSystem）から読み込んだ問題
         let collectedProblemIds = new Set(); // コレクト機能用: 選択された問題ID
 
         // === IndexedDB 設定 ===
@@ -280,7 +282,7 @@
         const PROBLEMS_DIR = 'problems';
         let isFileSystemMode = false;
         let dirHandle = null;
-        let localProblems = []; // ローカル問題データを保持
+        // let localProblems = []; // 重複宣言のため削除
         let selectedResultCard = null; // 選択中の検索結果カード
 
         // === フィルター用セット ===
@@ -703,8 +705,8 @@
 
             // 2. データの結合と再集計
             if (!localProblems) localProblems = []; // Safety check
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
-            console.log(`reloadAllData: Combined data. Mock: ${MOCK_SCIENCE_DATA.length}, Local: ${localProblems.length}, Total: ${allData.length}`);
+            const allData = [...MOCK_MATH_DATA, ...onlineProblems, ...localProblems];
+            console.log(`reloadAllData: Combined data. Mock: ${MOCK_MATH_DATA.length}, Online: ${onlineProblems.length}, Local: ${localProblems.length}, Total: ${allData.length}`);
 
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
@@ -807,7 +809,33 @@
             // 削除済みサンプルデータをフィルタリング
             filterDeletedSamples();
 
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
+            // index.json (Vercel用エクスポートデータ) の読み込み
+            try {
+                const res = await fetch('./index.json?t=' + new Date().getTime());
+                if (res.ok) {
+                    onlineProblems = await res.json();
+                    console.log('Loaded index.json (onlineProblems):', onlineProblems.length);
+
+                    // ストレージ状態を「オンライン」に更新 (未接続時のみ)
+                    if (!isFileSystemMode) {
+                        const statusEl = document.getElementById('storageStatus');
+                        if (statusEl) {
+                            statusEl.textContent = 'オンラインデータ';
+                            statusEl.className = 'text-xs font-medium px-2 py-1 rounded-full bg-blue-100 text-blue-700 border border-blue-200 shadow-sm';
+                        }
+                        const badge = document.getElementById('folderStatusBadge');
+                        if (badge) badge.textContent = 'オンライン';
+
+                        // 接続ボタンのラベル変更
+                        const connectBtn = document.getElementById('connectFolderBtn');
+                        if (connectBtn) connectBtn.innerHTML = '📁 フォルダに接続 (編集用)';
+                    }
+                }
+            } catch (e) {
+                console.log('No index.json found or load failed', e);
+            }
+
+            const allData = [...MOCK_MATH_DATA, ...onlineProblems, ...localProblems];
             allData.forEach(doc => {
                 splitAndAdd(doc.unit, allUnits);
                 splitAndAdd(doc.grade, allGrades);
@@ -855,6 +883,12 @@
                 badge.textContent = `ローカル: ${localProblems.length}件`;
                 badge.classList.remove('hidden');
             }
+            // Vercel環境判定: ホスト名に vercel.app が含まれていれば登録ボタンを非表示
+            if (window.location.hostname.includes('vercel.app')) {
+                const regBtn = document.getElementById('registrationButton');
+                if (regBtn) regBtn.style.display = 'none';
+            }
+
             console.log('window.onload: Completed.');
         };
 
@@ -918,6 +952,7 @@
                             <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">${doc.year || '不明'}年度${doc.month ? doc.month + '月' : ''}</span>
                             <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">${doc.grade}年</span>
                             ${isLocal ? '<span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Local</span>' : ''}
+                            ${onlineProblems.some(op => op.id === doc.id) ? '<span class="text-xs bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded border border-cyan-200">Online</span>' : ''}
                         </div>
                         <div class="collection-checkbox" onclick="toggleCollection('${doc.id}', event)">
                             <input type="checkbox" ${isCollected ? 'checked' : ''} class="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer">
@@ -1169,9 +1204,9 @@
                 saveDeletedSampleIds(deletedIds);
 
                 // メモリ上の配列からも削除
-                const index = MOCK_SCIENCE_DATA.findIndex(p => p.id === id);
+                const index = MOCK_MATH_DATA.findIndex(p => p.id === id);
                 if (index > -1) {
-                    MOCK_SCIENCE_DATA.splice(index, 1);
+                    MOCK_MATH_DATA.splice(index, 1);
                 }
             }
         }
@@ -1193,13 +1228,13 @@
         function filterDeletedSamples() {
             const deletedIds = getDeletedSampleIds();
             if (deletedIds.size > 0) {
-                // MOCK_SCIENCE_DATA から削除済みIDをフィルタ
-                for (let i = MOCK_SCIENCE_DATA.length - 1; i >= 0; i--) {
-                    if (deletedIds.has(MOCK_SCIENCE_DATA[i].id)) {
-                        MOCK_SCIENCE_DATA.splice(i, 1);
+                // MOCK_MATH_DATA から削除済みIDをフィルタ
+                for (let i = MOCK_MATH_DATA.length - 1; i >= 0; i--) {
+                    if (deletedIds.has(MOCK_MATH_DATA[i].id)) {
+                        MOCK_MATH_DATA.splice(i, 1);
                     }
                 }
-                console.log(`Filtered ${deletedIds.size} deleted sample(s) from MOCK_SCIENCE_DATA`);
+                console.log(`Filtered ${deletedIds.size} deleted sample(s) from MOCK_MATH_DATA`);
             }
         }
 
@@ -1239,7 +1274,8 @@
         // === 詳細表示 ===
         function viewDetails(docId, cardElement) {
             // ローカル問題かMOCK_DATAから検索
-            let doc = MOCK_SCIENCE_DATA.find(d => d.id === docId);
+            let doc = MOCK_MATH_DATA.find(d => d.id === docId);
+            if (!doc) doc = onlineProblems.find(d => d.id === docId);
             const isLocal = docId.startsWith('LOCAL');
             if (isLocal) {
                 doc = localProblems.find(d => d.id === docId);
@@ -1473,7 +1509,7 @@
             console.log('filterDocuments: keywordInput=', keywordInput, ', keywords=', keywords, ', searchMode=', searchMode);
 
             // 全データ（既存 + ローカル）をフィルタリング
-            const allData = [...MOCK_SCIENCE_DATA, ...localProblems];
+            const allData = [...MOCK_MATH_DATA, ...localProblems];
             console.log('filterDocuments: allData count=', allData.length);
 
             const filteredResults = allData.filter(doc => {
@@ -1603,47 +1639,120 @@
             const margin = 10;
             const usableWidth = pageWidth - margin * 2;
 
-            // 問題画像の枚数分ループ
+            // === 強制ページ数モード判定 ===
+            const useForcePageMode = docData.forcePageCount && docData.forcedPages && docData.forcedPages >= 2;
+
+            // ヘッダー情報を共通化
+            const typeMap = {
+                '学力テスト': '学力テスト',
+                '基礎学力テスト': '基礎学力テスト'
+            };
+            const typeRaw = docData.testType || '';
+            const typeStr = typeMap[typeRaw] || typeRaw || 'Unknown';
+            const yearVal = docData.year || '';
+            const monthVal = docData.month ? docData.month.toString().padStart(2, '0') : '';
+            const dateStr = (yearVal && monthVal) ? `${yearVal}年${monthVal}月` : (yearVal ? `${yearVal}年度` : '');
+            const commentStr = docData.comment || '';
+            const unitStr = docData.unit || '';
+            const headerParts = [typeStr, dateStr, unitStr, commentStr].filter(s => s);
+
+            // === ヘルパー: ヘッダーを描画して現在Y位置を返す ===
+            async function drawHeader(pageLabel) {
+                const headerText = `ID:${docData.id}  ${headerParts.join('  ')}  ${pageLabel}`;
+                const headerImageBlob = await textToImage(headerText, 1200, 24);
+                const headerImage = await loadImage(headerImageBlob);
+                const headerWidth = 180;
+                const headerHeight = headerWidth * (headerImage.height / headerImage.width);
+                doc.addImage(headerImage, 'PNG', margin, margin, headerWidth, headerHeight);
+                return margin + headerHeight + 2;
+            }
+
+            // === 強制ページ数モード ===
+            if (useForcePageMode) {
+                const forcedPages = docData.forcedPages;
+
+                // --- 1. 問題画像ページ (フッターなし・全面表示) ---
+                for (let i = 0; i < images.problems.length; i++) {
+                    if (!isFirstPage || i > 0) {
+                        doc.addPage();
+                        doc.setFont('Helvetica', 'normal');
+                    }
+
+                    const currentY = await drawHeader(`(${i + 1}/${images.problems.length})`);
+                    const availableHeight = pageHeight - margin - currentY;
+
+                    // 問題画像を全面にフィット（フッターなし）
+                    if (images.problems[i]) {
+                        drawImageFit(doc, images.problems[i], margin, currentY, usableWidth, availableHeight, 'top');
+                    }
+                }
+
+                // --- 2. 解説・解答を残りのページに分散配置 ---
+                const problemPageCount = images.problems.length;
+                const remainingPages = Math.max(1, forcedPages - problemPageCount);
+
+                // 解説画像と解答画像を1つの配列にまとめる
+                const allFooterImages = [];
+                if (images.explanation) {
+                    const expArr = Array.isArray(images.explanation) ? images.explanation : [images.explanation];
+                    for (const item of expArr) {
+                        allFooterImages.push({ ...item, label: '解説' });
+                    }
+                }
+                if (images.answer) {
+                    allFooterImages.push({ ...images.answer, label: '解答' });
+                }
+
+                if (allFooterImages.length > 0) {
+                    // 画像を残りのページ数で均等に分配
+                    const imagesPerPage = Math.ceil(allFooterImages.length / remainingPages);
+
+                    for (let page = 0; page < remainingPages; page++) {
+                        doc.addPage();
+                        doc.setFont('Helvetica', 'normal');
+
+                        const startIdx = page * imagesPerPage;
+                        const endIdx = Math.min(startIdx + imagesPerPage, allFooterImages.length);
+                        const pageImages = allFooterImages.slice(startIdx, endIdx);
+
+                        if (pageImages.length === 0) continue;
+
+                        // ページラベル
+                        const labelParts = pageImages.map(img => img.label);
+                        const uniqueLabels = [...new Set(labelParts)];
+                        const currentY = await drawHeader(`[${uniqueLabels.join('・')}] (${page + 1}/${remainingPages})`);
+                        const availableHeight = pageHeight - margin - currentY;
+
+                        if (pageImages.length === 1) {
+                            // 1枚だけ: ページ全体にフィット
+                            const item = pageImages[0];
+                            drawImageFit(doc, item, margin, currentY, usableWidth, availableHeight, 'top');
+                        } else {
+                            // 複数枚: 縦に均等分割
+                            const gap = 3;
+                            const totalGap = gap * (pageImages.length - 1);
+                            const heightPerImage = (availableHeight - totalGap) / pageImages.length;
+                            let drawY = currentY;
+
+                            for (const item of pageImages) {
+                                drawImageFit(doc, item, margin, drawY, usableWidth, heightPerImage, 'top');
+                                drawY += heightPerImage + gap;
+                            }
+                        }
+                    }
+                }
+                return; // 強制モード終了
+            }
+
+            // === 通常モード (従来の動作) ===
             for (let i = 0; i < images.problems.length; i++) {
-                // ページ追加判定
                 // ページ追加判定
                 if (!isFirstPage || i > 0) {
                     doc.addPage();
                     doc.setFont('Helvetica', 'normal');
                 }
 
-                // ヘッダー描画 (画像化して日本語対応)
-                // フォーマット: 問題種別 - 年度 - 出題月 - コメント
-                const typeMap = {
-                    '学力テスト': '学力テスト',
-                    '基礎学力テスト': '基礎学力テスト'
-                };
-                const typeRaw = docData.testType || '';
-                const typeStr = typeMap[typeRaw] || typeRaw || 'Unknown';
-
-                const yearVal = docData.year || '';
-                const monthVal = docData.month ? docData.month.toString().padStart(2, '0') : '';
-                const dateStr = (yearVal && monthVal) ? `${yearVal}年${monthVal}月` : (yearVal ? `${yearVal}年度` : '');
-
-                const commentStr = docData.comment || '';
-                const unitStr = docData.unit || '';
-
-                // 配列から空文字を除外して結合
-                const headerParts = [typeStr, dateStr, unitStr, commentStr].filter(s => s);
-                // IDも含める
-                const headerText = `ID:${docData.id}  ${headerParts.join('  ')}  (${i + 1}/${images.problems.length})`;
-
-                // テキストを画像に変換
-                // 解像度を高め(1200px)にし、相対的に文字サイズ(24px)を小さく見せる
-                const headerImageBlob = await textToImage(headerText, 1200, 24);
-                const headerImage = await loadImage(headerImageBlob);
-
-                // 画像として配置 (幅180mm程度)
-                const headerWidth = 180;
-                const headerHeight = headerWidth * (headerImage.height / headerImage.width);
-                doc.addImage(headerImage, 'PNG', margin, margin, headerWidth, headerHeight);
-
-                let currentY = margin + headerHeight + 2;
+                const currentY = await drawHeader(`(${i + 1}/${images.problems.length})`);
                 let availableHeight = pageHeight - margin - currentY;
                 let footerHeight = 0;
 
@@ -1937,7 +2046,8 @@
 
         // === 個別PDF作成機能 ===
         async function generatePDF(id, is2Up = false) {
-            let docData = MOCK_SCIENCE_DATA.find(d => d.id === id);
+            let docData = MOCK_MATH_DATA.find(d => d.id === id);
+            if (!docData) docData = onlineProblems.find(d => d.id === id);
             if (!docData) docData = localProblems.find(d => d.id === id);
 
             if (!docData) {
@@ -2078,7 +2188,8 @@
                 const ids = Array.from(collectedProblemIds);
 
                 for (const id of ids) {
-                    let docData = MOCK_SCIENCE_DATA.find(d => d.id === id);
+                    let docData = MOCK_MATH_DATA.find(d => d.id === id);
+                    if (!docData) docData = onlineProblems.find(d => d.id === id);
                     if (!docData) docData = localProblems.find(d => d.id === id);
                     if (!docData) continue;
 
